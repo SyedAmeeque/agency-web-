@@ -1,0 +1,356 @@
+*{
+    font-family: poppins;
+}
+a{
+    text-decoration: none;
+}
+.navbar-nav .d-flex p a{
+    color: #0f85c7;
+    text-decoration: none;
+}
+.btn-1{
+    background-color: #0f85c7;
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #0f85c7;
+
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-1:hover{
+    background-color: transparent;
+    border: 1px solid #0f85c7;
+    color: #0f85c7;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link{
+    transition: all 0.5s ease-in-out;
+    color: #000;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #0f85c7;
+    transition: all 0.5s ease-in-out;
+
+}
+.padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/* section start .................  */
+.icon-card{
+    background-color: #fff;
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* section end .................  */
+
+/* <!-- section start ..............................  --> */
+.btn-2{
+    padding: 10px 15px;
+    background: linear-gradient(to right ,blue,#0f85c7);
+    border: 1px solid #0f85c7;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    transition: all 0.5s ease-in;
+
+}
+.btn-2:hover{
+    background: #fff;
+    box-shadow: 0 0 5px #0f85c7;
+    color: #0f85c7;
+    transition: all 0.5s ease-in;
+}
+
+.icon-card2{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+/* <!-- section end ..............................  --> */
+
+
+/* <!-- section start ..............................  --> */
+.wave-img{
+    width: 100%;
+    min-height: 70vh;
+    background: url(../web\ agency\ complete\ file/images/background-wave_32_11zon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 80px 20px;
+}
+
+.btn-3{
+    border: 1px solid #0f85c7;
+    color: #0f85c7;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-3:hover{
+    background-color: #0f85c7;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-4{
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #0f85c7;
+    font-size: 14px;
+    border-radius: 5px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-4:hover{
+    background-color: #fff;
+    border: 1px solid #0f85c7;
+    color: #0f85c7;
+    transition: all 0.5s ease-in-out;
+}
+.t-btn{
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    border:1px solid rgba(0,0,0,0.2);
+}
+.t-btn:hover{
+    color: #000;
+}
+.ul li{
+    list-style: none;
+    position: relative;
+    margin-top: 20px;
+    color: gray;
+}
+.ul li::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0f85c7;
+    position: absolute;
+    left: -15%;
+    top: -5%;
+}
+.slide{
+    width: 320px;
+    min-height: 400px;
+    padding:20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.swiper-button-next{
+    width: 80px;
+    height: 80px;
+    background-color: #0f85c7;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+@media screen and (max-width:500px){
+    .ul li::before{
+        left: -25%;
+    }
+    .ul li{
+    margin-top: 30px;
+
+    }
+}
+/* <!-- section end ..............................  --> */
+
+
+
+    /* <!-- section start ..............................  --> */
+    footer ul li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    footer ul{
+        padding: 0;
+    }
+    .footer .borderd{
+        border-top: 2px solid #0f85c7;
+    }
+    .footer2{
+        background-color: #0f85c7;
+        padding:20px;
+    }
+    /* <!-- section end ..............................  --> */
+
+
+
+    /* <!-- about start ..............................  --> */
+    .about-ul{
+        list-style: none;
+        padding: 0;
+    }
+    .about-ul li{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #0f85c7;
+    }
+    @media screen and (max-width:768px){
+        .about-ul li{
+            font-size: 16px;
+        }
+    }
+    .about-ul li::before{
+        content: '+';
+        padding: 10px;
+
+    }
+    .about-card{
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .team .row img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    
+    }
+   
+    .line{
+        width: 8px;
+        background-color: #0f85c7;
+        height: 100px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        z-index: 1;
+    }
+    .line2{
+        width: 100px;
+        background-color: #0f85c7;
+        height: 8px;
+        position: absolute;
+        top: 9%;
+        right: 36%;
+        z-index: 1;
+    }
+    .line3{
+        width: 100px;
+        background-color: #0f85c7;
+        height: 8px;
+        position: absolute;
+        top: 10%;
+        right: 0%;
+        z-index: 1;
+    }
+    .about-bg{
+        width: 100%;
+        min-height: 50vh;
+        background: url(../web\ agency\ complete\ file/images/footer-cta_52_11zon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        padding: 30px 40px;
+    }
+    .ul1{
+
+    }
+    .ul1 li{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #0f85c7;
+    }
+    /* <!-- about end ..............................  --> */
+
+    /* .our work page................  */
+    .buttons{
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+    .buttons a{
+        font-weight: 600;
+        transition: all 0.5s ease-in-out;
+        
+    }
+    .buttons a:hover{
+        color: #000;
+        font-size: 18px;
+        border-bottom: 1px solid #000;
+        transition: all 0.5s ease-in-out;
+    }
+    .work .col-md-4 a img{
+        /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+        transition: all 0.5s ease-in-out;
+        
+    }
+    .work .col-md-4 a img:hover{
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+    .work-heading{
+        letter-spacing: 8px; 
+        font-size: 60px;
+    }
+    @media screen and (max-width:400px){
+        .work-heading{
+            font-size: 46px;
+        }
+    }
+    /* .our work page................  */
+
+    /* services work page................  */
+    .service-banner{
+        width: 100%;
+        min-height: 100vh;
+        background: url(../web\ agency\ complete\ file/images/background-wave_32_11zon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .btn-5{
+        padding: 10px 25px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        color: #0f85c7;
+
+        font-size: 16px;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+    .btn-5:hover{
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #fff;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .link{
+        padding: 15px 30px;
+        background-color: #fff;
+
+    }
+    .log-in{
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        border-radius: 20px;
+    }
+    /* services work page................  */
